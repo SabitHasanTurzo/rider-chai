@@ -1,0 +1,25 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+
+}
+@media(min-width:768px){
+    .news-input{
+        width: 50%;;
+    }
+}
+
+
+.minimap {
+    width: 250px; 
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1, p, button, h2, body, div {
+    font-family: 'Anek Bangla', sans-serif;
+}
